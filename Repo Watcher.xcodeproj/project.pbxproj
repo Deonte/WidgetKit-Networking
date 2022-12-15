@@ -106,11 +106,10 @@
 		FD2DBCC5294AD95500217D6E /* Repo Watcher */ = {
 			isa = PBXGroup;
 			children = (
-				FD2DBCED294AE12A00217D6E /* Repository.swift */,
-				FD2DBCF0294AEBEE00217D6E /* NetworkManager.swift */,
-				FD2DBCC6294AD95500217D6E /* Repo_WatcherApp.swift */,
-				FD2DBCC8294AD95500217D6E /* ContentView.swift */,
-				FD2DBCCA294AD95500217D6E /* Assets.xcassets */,
+				FD2DBCF5294AFEAC00217D6E /* App */,
+				FD2DBCF6294AFEB800217D6E /* Model */,
+				FD2DBCF7294AFEC400217D6E /* Networking */,
+				FD2DBCF8294AFED700217D6E /* Views */,
 				FD2DBCCC294AD95500217D6E /* Preview Content */,
 			);
 			path = "Repo Watcher";
@@ -142,6 +141,39 @@
 				FD2DBCE5294AD9E500217D6E /* Info.plist */,
 			);
 			path = RepoWatcherWidget;
+			sourceTree = "<group>";
+		};
+		FD2DBCF5294AFEAC00217D6E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD2DBCCA294AD95500217D6E /* Assets.xcassets */,
+				FD2DBCC6294AD95500217D6E /* Repo_WatcherApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD2DBCF6294AFEB800217D6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD2DBCED294AE12A00217D6E /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD2DBCF7294AFEC400217D6E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FD2DBCF0294AEBEE00217D6E /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FD2DBCF8294AFED700217D6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD2DBCC8294AD95500217D6E /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
